@@ -72,7 +72,7 @@ body {
     50% { opacity: 1; }
 }
 
-/* Navigation */
+
 .nav {
     background-color: var(--primary);
     color: white;
@@ -83,7 +83,7 @@ body {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-/* Buttons */
+
 .btn-primary {
     background-color: var(--accent);
     color: white;
