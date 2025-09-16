@@ -1,1 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AyurSutra - Ayurvedic Therapy Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <i class="fas fa-spa"></i>
+            </div>
+            <div class="loader-text">Ancient Wisdom</div>
+            <div class="loader-text">Modern Technology</div>
+            <div class="loader-text">Holistic Healing</div>
+        </div>
+    </div>
 
+    
+    <nav class="nav">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-spa text-secondary text-2xl mr-2"></i>
+                <span class="text-2xl font-bold">AyurSutra</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#features" class="hover:text-secondary transition">Features</a>
+                <a href="#panchakarma" class="hover:text-secondary transition">Panchakarma</a>
+                <a href="#dashboards" class="hover:text-secondary transition">Dashboards</a>
+                <a href="#phases" class="hover:text-secondary transition">Roadmap</a>
+                <a href="#contact" class="hover:text-secondary transition">Contact</a>
+            </div>
+            <div class="flex items-center">
+                <button class="btn-secondary mr-4">Login</button>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="hero">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="hero-content">
+                <h1>Ancient Ayurveda, Modern Management</h1>
+                <p>Streamline your Ayurvedic practice with our comprehensive therapy management system designed for the digital age.</p>
+                <div class="hero-buttons">
+                    <button class="btn-accent">Start </button>
+                    <button class="btn-outline">Ayurosutra</button>
+                </div>
+            </div>
+            <div class="hero-image floating">
+                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='500' height='400' viewBox='0 0 500 400'><rect fill='%23F5F0E6' width='500' height='400' rx='20'/><path fill='%233A8C6F' d='M200,100 L300,100 L300,200 L200,200 Z'/><circle fill='%23F3B95F' cx='350' cy='150' r='50'/><path fill='%23D76F30' d='M150,250 L250,250 L200,350 Z'/></svg>" alt="Ayurvedic Dashboard Preview">
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="features" class="features">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="section-subtitle">Designed specifically for Ayurvedic clinics and wellness centers to streamline operations and enhance patient care.</p>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Patient Management</h3>
+                    <p>Complete patient profiles with dosha analysis, medical history, and treatment plans all in one place.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Dosha Prakriti Analysis</li>
+                        <li><i class="fas fa-check-circle"></i> Treatment History</li>
+                        <li><i class="fas fa-check-circle"></i> Appointment Scheduling</li>
+                    </ul>
+                </div>
+                
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Treatment Planning</h3>
+                    <p>Create customized treatment plans with herbal prescriptions, diet recommendations, and lifestyle advice.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Herbal Formulations</li>
+                        <li><i class="fas fa-check-circle"></i> Diet & Lifestyle Plans</li>
+                        <li><i class="fas fa-check-circle"></i> Yoga & Pranayama</li>
+                    </ul>
+                </div>
+                
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Billing & Inventory</h3>
+                    <p>Manage clinic finances, track inventory of herbs and medicines, and generate invoices seamlessly.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Automated Invoicing</li>
+                        <li><i class="fas fa-check-circle"></i> Inventory Management</li>
+                        <li><i class="fas fa-check-circle"></i> Financial Reports</li>
+                    </ul>
+                </div>
+                
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics & Reports</h3>
+                    <p>Gain insights into your practice with detailed analytics on patient outcomes and business performance.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Treatment Efficacy</li>
+                        <li><i class="fas fa-check-circle"></i> Business Performance</li>
+                        <li><i class="fas fa-check-circle"></i> Custom Reports</li>
+                    </ul>
+                </div>
+                
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Access</h3>
+                    <p>Access patient records and manage your practice on the go with our mobile-responsive application.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Responsive Design</li>
+                        <li><i class="fas fa-check-circle"></i> iOS & Android Apps</li>
+                        <li><i class="fas fa-check-circle"></i> Offline Capabilities</li>
+                    </ul>
+                </div>
+                
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure & Compliant</h3>
+                    <p>Your data is protected with enterprise-grade security and compliance with healthcare regulations.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> HIPAA Compliant</li>
+                        <li><i class="fas fa-check-circle"></i> Data Encryption</li>
+                        <li><i class="fas fa-check-circle"></i> Regular Backups</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="panchakarma" class="panchakarma">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Panchakarma Management</h2>
+            <p class="section-subtitle">Specialized tools to manage the complete Panchakarma therapy process from initial assessment to post-treatment care.</p>
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="procedure-card">
+                            <div class="procedure-icon">
+                                <i class="fas fa-hand-holding-water"></i>
+                            </div>
+                            <h3>Vamana</h3>
+                            <p>Therapeutic emesis therapy for Kapha-related disorders</p>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Pre-treatment assessment</li>
+                                <li><i class="fas fa-check-circle"></i> Medicine preparation tracking</li>
+                                <li><i class="fas fa-check-circle"></i> Progress monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="swiper-slide">
+                        <div class="procedure-card">
+                            <div class="procedure-icon">
+                                <i class="fas fa-tint"></i>
+                            </div>
+                            <h3>Virechana</h3>
+                            <p>Purgation therapy for Pitta-related disorders</p>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Dosha assessment</li>
+                                <li><i class="fas fa-check-circle"></i> Purification tracking</li>
+                                <li><i class="fas fa-check-circle"></i> Post-therapy diet management</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="swiper-slide">
+                        <div class="procedure-card">
+                            <div class="procedure-icon">
+                                <i class="fas fa-syringe"></i>
+                            </div>
+                            <h3>Basti</h3>
+                            <p>Medicated enema therapy for Vata-related disorders</p>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Medicine formulation records</li>
+                                <li><i class="fas fa-check-circle"></i> Schedule management</li>
+                                <li><i class="fas fa-check-circle"></i> Response tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="swiper-slide">
+                        <div class="procedure-card">
+                            <div class="procedure-icon">
+                                <i class="fas fa-head-side-mask"></i>
+                            </div>
+                            <h3>Nasya</h3>
+                            <p>Nasal administration of medicated oils</p>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Oil preparation tracking</li>
+                                <li><i class="fas fa-check-circle"></i> Application scheduling</li>
+                                <li><i class="fas fa-check-circle"></i> Symptom monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="swiper-slide">
+                        <div class="procedure-card">
+                            <div class="procedure-icon">
+                                <i class="fas fa-tint-slash"></i>
+                            </div>
+                            <h3>Raktamokshana</h3>
+                            <p>Bloodletting therapy for blood-related disorders</p>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Safety protocol tracking</li>
+                                <li><i class="fas fa-check-circle"></i> Equipment sterilization records</li>
+                                <li><i class="fas fa-check-circle"></i> Patient response monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="dashboards" class="dashboards">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Interactive Dashboards</h2>
+            <p class="section-subtitle">Visualize your clinic's performance and patient progress with our intuitive dashboard system.</p>
+            
+            <div class="dashboard-content">
+                <div class="dashboard-info">
+                    <h3>Real-time Clinic Overview</h3>
+                    <p>Monitor key metrics of your Ayurvedic practice at a glance with our comprehensive dashboard.</p>
+                    
+                    <div class="dashboard-features">
+                        <div class="dashboard-feature">
+                            <div class="feature-icon-small">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div>
+                                <h4>Patient Statistics</h4>
+                                <p>Track patient visits, new registrations, and treatment compliance rates.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="dashboard-feature">
+                            <div class="feature-icon-small">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div>
+                                <h4>Appointment Management</h4>
+                                <p>View daily schedules, therapist availability, and room occupancy.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="dashboard-feature">
+                            <div class="feature-icon-small">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div>
+                                <h4>Financial Analytics</h4>
+                                <p>Monitor revenue, outstanding payments, and treatment popularity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-preview">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'><rect fill='%23F5F0E6' width='600' height='400'/><rect fill='%233A8C6F' x='50' y='50' width='500' height='50' rx='5'/><rect fill='%23F3B95F' x='50' y='120' width='200' height='150' rx='5'/><rect fill='%23D76F30' x='270' y='120' width='280' height='70' rx='5'/><circle fill='%233A8C6F' cx='400' cy='250' r='40'/><rect fill='%233A8C6F' x='50' y='290' width='500' height='50' rx='5'/></svg>" alt="Dashboard Preview">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="phases" class="roadmap">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Implementation Roadmap</h2>
+            <p class="section-subtitle">Our phased approach ensures a smooth transition to AyurSutra with minimal disruption to your practice.</p>
+            
+            <div class="timeline">
+                
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Phase 1: Assessment & Planning</h3>
+                        <p class="timeline-date">Weeks 1-2</p>
+                        <p>We analyze your current workflow, identify requirements, and create a customized implementation plan.</p>
+                    </div>
+                </div>
+                
+                
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Phase 2: System Setup</h3>
+                        <p class="timeline-date">Weeks 3-4</p>
+                        <p>Our team configures the system according to your needs and migrates your existing data securely.</p>
+                    </div>
+                </div>
+                
+                
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Phase 3: Staff Training</h3>
+                        <p class="timeline-date">Weeks 5-6</p>
+                        <p>Comprehensive training for your team ensures everyone can use the system effectively from day one.</p>
+                    </div>
+                </div>
+                
+                
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Phase 4: Go Live & Support</h3>
+                        <p class="timeline-date">Week 7</p>
+                        <p>We launch the system and provide ongoing support to ensure a smooth transition and address any questions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="cta">
+        <div class="container mx-auto px-6 text-center">
+            <h2>Ready to Transform Your Ayurvedic Practice?</h2>
+            <p>Join hundreds of Ayurvedic professionals who have streamlined their practice with AyurSutra.</p>
+            
+            <div class="cta-buttons">
+                <button class="btn-accent">Start</button>
+                <button class="btn-outline">Talk to ayruneo</button>
+                       <p class="cta-note">Ask me</p>
+            </div>
+            
+      
+        </div>
+    </section>
+
+    
+    <footer id="contact" class="footer">
+        <div class="container mx-auto px-6">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand">
+                        <i class="fas fa-spa"></i>
+                        <span>AyurSutra</span>
+                    </div>
+                    <p>Bridging ancient Ayurvedic wisdom with modern technology to help practitioners deliver better care.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#panchakarma">Panchakarma</a></li>
+                        <li><a href="#dashboards">Dashboards</a></li>
+                        <li><a href="#phases">Implementation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Webinars</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> R1,bhilai City</li>
+                        <li><i class="fas fa-phone"></i> +91 835959010170</li>
+                        <li><i class="fas fa-envelope"></i> www.gmailik.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
